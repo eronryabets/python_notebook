@@ -10,14 +10,19 @@ time.sleep(1)
 
 # получаем время окончания действия с начала запуска таймера
 end_time = time.time()
-print end_time - begin_time
+#print end_time - begin_time
+print (end_time)
 
 # другое продолжительное действие
 time.sleep(2)
 
 # получаем время окончания действия с начала запуска таймера
 end_time = time.time()
-print end_time - begin_time
+#print end_time - begin_time
+
+print (end_time)
+m, s = divmod(seconds, 60)
+
 
 """
 #перевод секунд в минуты и часы
